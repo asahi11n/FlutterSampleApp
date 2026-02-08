@@ -14,3 +14,10 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+開発環境：
+Android Studio Otter 3 Feature Drop | 2025.2.3
+
+詳細：
+Androod Studioが搭載しているgoogle geminiを活用しています。
+簡単なTODOアプリです。

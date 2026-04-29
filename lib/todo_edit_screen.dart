@@ -76,6 +76,7 @@ class _TodoEditScreenState extends State<TodoEditScreen> {
               const SizedBox(height: 16),
               ElevatedButton(
                 onPressed: () async {
+                  print("!!!! 保存ボタンが押されました");
                   if (_formKey.currentState!.validate()) {
                     _formKey.currentState!.save();
                     final now = DateTime.now();
@@ -93,6 +94,8 @@ class _TodoEditScreenState extends State<TodoEditScreen> {
                       await DatabaseHelper.instance.update(todo);
                     }
                     Navigator.of(context).pop();
+                  } else {
+                    print("!!!! else");
                   }
                 },
                 child: const Text('保存'),
